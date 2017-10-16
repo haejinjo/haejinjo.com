@@ -14,11 +14,36 @@ p, div {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
+.container {
+
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+
+}
+
+.section {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#startUpCard {
+	background: url("../images/pattern.png");
+	height: 100%
+	position: relative;
+	width: 100%;
+
+}
+
 #prof-pic {  		/*the hashtag is for id's*/
 	width:250px;
 	height:300px;
 	border-radius: 25px;
 	padding: 10px;
+	float: right;
+
 }
 
 .logo-img { 		/*the period is for class groups*/
@@ -27,24 +52,49 @@ p, div {
 }
 
 h1 {				/*affects all main headers*/
-	font-size: 80px;
+	padding-top: 350px;
+	padding-left: 400px;
+	text-align: center;
+	font-size: 300px;
 	margin: 0px;
+	position: absolute;
+   color: #F9181E;
+text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
 }
 
-#header {
-		text-align: center;
-		background-color: rgba(0,255,0,0.2)
-		color: white;
-		padding-bottom: 10px;
+.floating{
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
 }
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+
 
 body {
 	margin: 0px;
 }
-
-#interests {
-	padding-bottom: 10px;
-}
+ 
 
 .button {
 	font-size: 1em;
@@ -137,33 +187,29 @@ body {
 }
 
 .column {
-	width: 40%;
 	text-align: left;
 	margin-top: 20px; /*can't center text within our div, because container div is split into several divs. margin: 0 auto;
 					automatically sets margin to the sides to push the div to the center*/
-	margin-bottom: 20px;
-	margin-left: center;
 
 	background-color:rgba(0,255,0,0.2)
-	color:white; 
-	padding:20px; 
-	border-radius:25px
+
 }
 
-
-#navbar {
-	padding: 10px;
-	text-align: right; 
-}
-
-#navbar a {			/*this selector picks out all the anchor tags within the navbar div*/
+.emphasis {
+	font-size: 150%;
 	color: white;
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .filler-crap {
 	float: left;
-	top:80px; 
-	left:90px 
+/*	top:80px; 
+	left:90px */
+
+	margin-left: auto;
+	margin-right: auto;
 	width: 300px; 
 	height: 300px;
 
