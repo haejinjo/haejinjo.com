@@ -1,19 +1,26 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+=======
+
+>>>>>>> e3d0abb72d28e8df73450223d6d1592a65099bff
 <html>
 	<body>
 	<head>
 		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
  		<link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
 
+<<<<<<< HEAD
  		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
 		<title>Haejin Jo's Page</title> 
 		<link rel="stylesheet" type="text/css" href="css/main.css"> 
 		<link rel="icon" type="image/png" href="images/"
+=======
 
 		<title>Haejin Jo's Page</title> 
 
 		<!--copypasted this line in this location for css style linking-->
 		<link rel="stylesheet" type="text/css" href="styles.css"> 
+>>>>>>> e3d0abb72d28e8df73450223d6d1592a65099bff
 
 	</head>
 
